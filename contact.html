@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Hubungi Sipaling Fomo - Customer service 24/7, chat support, dan informasi lengkap untuk membantu Anda.">
+    <meta name="keywords" content="kontak sipaling fomo, customer service, hubungi kami">
+    <title>Hubungi Kami - Sipaling Fomo Decant Parfum</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <span class="logo-icon">◆</span>
+                <span class="logo-text">Sipaling Fomo</span>
+            </div>
+            <button class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="index.html" class="nav-link">Beranda</a></li>
+                <li><a href="index.html#products" class="nav-link">Produk</a></li>
+                <li><a href="index.html#about" class="nav-link">Tentang</a></li>
+                <li><a href="index.html#testimonials" class="nav-link">Review</a></li>
+                <li><a href="index.html#faq" class="nav-link">FAQ</a></li>
+                <li><a href="contact.html" class="nav-link active">Kontak</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Hubungi Kami</h1>
+            <p>Tim kami siap membantu Anda 24/7 dengan pertanyaan atau masalah apapun</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section">
+        <div class="container">
+            <div class="contact-grid">
+                <!-- Contact Form -->
+                <div class="contact-form-wrapper">
+                    <h2>Kirim Pesan Kepada Kami</h2>
+                    <p class="form-subtitle">Kami akan respond dalam waktu kurang dari 1 jam (business hours)</p>
+                    <form class="contact-form" onsubmit="handleContactForm(event)">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="name">Nama Lengkap *</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email *</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="phone">Nomor Telepon (WhatsApp)</label>
+                            <input type="tel" id="phone" name="phone" placeholder="contoh: 0812-3456-7890">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="subject">Topik Pertanyaan *</label>
+                            <select id="subject" name="subject" required>
+                                <option value="">-- Pilih Topik --</option>
+                                <option value="product">Pertanyaan Produk</option>
+                                <option value="order">Status Pesanan</option>
+                                <option value="refund">Refund/Return</option>
+                                <option value="recommendation">Rekomendasi Aroma</option>
+                                <option value="partnership">Partnership</option>
+                                <option value="other">Lainnya</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Pesan *</label>
+                            <textarea id="message" name="message" rows="5" placeholder="Tuliskan pesan atau pertanyaan Anda dengan detail..." required></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary">Kirim Pesan</button>
+                    </form>
+                </div>
+
+                <!-- Contact Info -->
+                <aside class="contact-info">
+                    <div class="info-card">
+                        <div class="info-icon">📞</div>
+                        <h3>Telepon</h3>
+                        <p class="info-content">0812-3456-7890</p>
+                        <p class="info-subtitle">Senin-Sabtu, 09:00-21:00 WIB</p>
+                    </div>
+
+                    <div class="info-card">
+                        <div class="info-icon">📧</div>
+                        <h3>Email</h3>
+                        <p class="info-content">info@sipaling.fomo</p>
+                        <p class="info-subtitle">Response time: < 1 jam (business hours)</p>
+                    </div>
+
+                    <div class="info-card">
+                        <div class="info-icon">💬</div>
+                        <h3>WhatsApp</h3>
+                        <p class="info-content">+62 812-3456-7890</p>
+                        <p class="info-subtitle">Chat support instant available</p>
+                        <a href="https://wa.me/628123456789" class="btn btn-small">Chat Sekarang</a>
+                    </div>
+
+                    <div class="info-card">
+                        <div class="info-icon">🕐</div>
+                        <h3>Jam Operasional</h3>
+                        <p class="info-content">
+                            Senin - Sabtu<br>
+                            09:00 - 21:00 WIB
+                        </p>
+                        <p class="info-subtitle">Minggu: Offline (urgent chat masuk antrean)</p>
+                    </div>
+
+                    <div class="info-card">
+                        <div class="info-icon">📍</div>
+                        <h3>Alamat Kantor</h3>
+                        <p class="info-content">
+                            Jl. Aroma Luxury No. 42<br>
+                            Jakarta Selatan, 12345
+                        </p>
+                        <p class="info-subtitle">Office hours saja. Tidak bisa walk-in.</p>
+                    </div>
+
+                    <div class="info-card highlight">
+                        <h3>🚀 Kecepatan Response</h3>
+                        <p>Kami bangga dengan response time super cepat. Rata-rata kami response dalam 15-30 menit.</p>
+                        <p class="rating">⭐ Rating: 4.9/5 dari 1000+ review</p>
+                    </div>
+                </aside>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Methods Section -->
+    <section class="contact-methods">
+        <div class="container">
+            <h2 class="section-title">Pilih Cara Kontak Terbaik Untuk Anda</h2>
+            <div class="methods-grid">
+                <div class="method-card">
+                    <div class="method-icon">💬</div>
+                    <h3>WhatsApp</h3>
+                    <p>Fastest way to reach us. Chat instant untuk order, tracking, dan konsultasi aroma.</p>
+                    <p class="method-time">Response: < 5 menit</p>
+                </div>
+                <div class="method-card">
+                    <div class="method-icon">📧</div>
+                    <h3>Email</h3>
+                    <p>Untuk pertanyaan kompleks atau dokumentasi resmi. Semua email di-response dengan detail.</p>
+                    <p class="method-time">Response: < 1 jam (business hours)</p>
+                </div>
+                <div class="method-card">
+                    <div class="method-icon">☎️</div>
+                    <h3>Telepon</h3>
+                    <p>Untuk yang prefer berbicara langsung. Tim kami siap membantu dengan ramah dan profesional.</p>
+                    <p class="method-time">Available: Business hours</p>
+                </div>
+                <div class="method-card">
+                    <div class="method-icon">🎧</div>
+                    <h3>Live Chat</h3>
+                    <p>Chat real-time di website kami. Perfect untuk quick questions sambil browsing produk.</p>
+                    <p class="method-time">Available: During business hours</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Quick Links -->
+    <section class="faq-quick">
+        <div class="container">
+            <h2>Masalah Umum yang Sering Ditanya?</h2>
+            <div class="faq-links-grid">
+                <a href="index.html#faq" class="faq-link-card">
+                    <span class="faq-icon">❓</span>
+                    <span>Lihat FAQ Lengkap</span>
+                </a>
+                <a href="index.html#products" class="faq-link-card">
+                    <span class="faq-icon">🛍️</span>
+                    <span>Browse Produk</span>
+                </a>
+                <a href="index.html#about" class="faq-link-card">
+                    <span class="faq-icon">ℹ️</span>
+                    <span>Tentang Kami</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-section">
+                    <h4>Sipaling Fomo</h4>
+                    <p>Koleksi decant parfum premium dengan harga terjangkau. Luxury untuk semua kalangan.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-icon">f</a>
+                        <a href="#" class="social-icon">𝕏</a>
+                        <a href="#" class="social-icon">📷</a>
+                        <a href="#" class="social-icon">▶</a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html#products">Produk</a></li>
+                        <li><a href="index.html#about">Tentang Kami</a></li>
+                        <li><a href="contact.html">Kontak</a></li>
+                        <li><a href="index.html#faq">FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Informasi</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Kebijakan Privasi</a></li>
+                        <li><a href="#">Syarat & Ketentuan</a></li>
+                        <li><a href="#">Return Policy</a></li>
+                        <li><a href="#">Shipping Info</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Hubungi Kami</h4>
+                    <p>📧 info@sipaling.fomo</p>
+                    <p>📞 0812-3456-7890</p>
+                    <p>⏰ Senin-Sabtu 09:00-21:00 WIB</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Sipaling Fomo. All rights reserved. | Crafted with care for fragrance lovers.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
